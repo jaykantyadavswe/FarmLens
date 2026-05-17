@@ -1,0 +1,15 @@
+{"timestamp":"00:00:02.223","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:09.706","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:00:14.564","source":"Browser","level":"WARN","message":"Image with src \"http://localhost:3000/vercel.svg\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:00:14.615","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"http://localhost:3000/vercel.svg\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\" \"\\u001b[2m(file://D:/Learn Skills/Project/Farmlens/frontend/.next/dev/static/chunks/node_modules_next_dist_0k8zr~w._.js:1226:13)\\u001b[22m\""}
+{"timestamp":"00:00:14.615","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"http://localhost:3000/vercel.svg\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"01:02:40.309","source":"Server","level":"LOG","message":"✓ Compiled in 593ms"}
+{"timestamp":"01:03:11.149","source":"Server","level":"LOG","message":"✓ Compiled in 577ms"}
+{"timestamp":"01:03:15.846","source":"Browser","level":"LOG","message":"Refreshing page data due to server-side change"}
+{"timestamp":"01:05:44.111","source":"Server","level":"LOG","message":"✓ Compiled in 117ms"}
+{"timestamp":"01:05:44.858","source":"Browser","level":"LOG","message":"Refreshing page data due to server-side change"}
+{"timestamp":"01:05:44.858","source":"Browser","level":"ERROR","message":"./src/pages/index.js:20:5\nExpression expected\n  18 |     >\n  19 |       <\n> 20 |     </div>\n     |     ^\n  21 |   );\n  22 | }\n  23 |\n\nParsing ecmascript source code failed"}
+{"timestamp":"01:05:44.858","source":"Browser","level":"ERROR","message":"./src/pages/index.js:20:6\nUnterminated regexp literal\n  18 |     >\n  19 |       <\n> 20 |     </div>\n     |      ^^^^^\n  21 |   );\n  22 | }\n  23 |\n\nParsing ecmascript source code failed"}
+{"timestamp":"01:05:47.710","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"01:05:48.013","source":"Browser","level":"LOG","message":"Refreshing page data due to server-side change"}
+{"timestamp":"01:05:51.753","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
