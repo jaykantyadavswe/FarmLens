@@ -1,11 +1,11 @@
 import express from 'express';
-import { ActiveCheck } from '../controllers/user.controller.js';
+import { ActiveCheck, login, register } from '../controllers/user.controller.js';
 
 const router = express.Router();
 
-router.get('/', (ActiveCheck));
+// router.get('/', (ActiveCheck));
 
-/* router.route('/')
-    .get(ActiveCheck); */
+router.route('/register').post(register);
+router.route('/login').get(login);
 
 export default router;
