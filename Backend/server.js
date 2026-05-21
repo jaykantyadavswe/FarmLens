@@ -1,14 +1,17 @@
-import express from 'express'
-import userRoute from './routers/users.route.js'
 import dotenv from 'dotenv';
-import mongodb from './config/db.js';
 dotenv.config();
-
+import express from 'express'
+import { connectCloudinary } from './config/cloudinary.js';
+import userRoute from './routers/users.route.js';
+import cropRouter from './routers/crop.route.js';
+import mongodb from './config/db.js';
+connectCloudinary();
 const app = express();
 
 app.use(express.json());
 
 app.use(userRoute);
+app.use(cropRouter);
 
 mongodb();
 
